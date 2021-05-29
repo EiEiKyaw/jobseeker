@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Job Seeker</string>
+    <string name="_description">check company</string>
+    <string name="search_position">Search Position</string>
+    <string name="myanmar" translatable="false">မြန်မာ</string>
+    <string name="english" translatable="false">English</string>
+    <string name="search">Search</string>
+    <string name="how_to_apply">How To Apply</string>
+</resources>

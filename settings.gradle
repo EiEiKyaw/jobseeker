@@ -1,0 +1,4 @@
+
+include ':jobSeeker'
+
+rootProject.name = "Android Tutorials"

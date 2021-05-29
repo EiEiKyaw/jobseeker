@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:iconTint="@android:color/white"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_my"
+        android:icon="@drawable/ic_search"
+        android:title="@string/myanmar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_en"
+        android:icon="@drawable/ic_search"
+        android:title="@string/english"
+        app:showAsAction="never" />
+</menu>

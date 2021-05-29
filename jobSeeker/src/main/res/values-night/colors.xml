@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_item_job">#232323</color>
+    <color name="text_color">#E4E4E4</color>
+    <color name="colorPrimary">#A6A6A6</color>
+    <color name="colorEnd">#000000</color>
+</resources>
