@@ -12,4 +12,7 @@
     <color name="grey">#AEACAC</color>
     <color name="bg_item_job">#ffffff</color>
     <color name="text_color">#000000</color>
+    <color name="bg_card">#ffffff</color>
+    <color name="check_company">#008A12</color>
+    <color name="description">#535353</color>
 </resources>

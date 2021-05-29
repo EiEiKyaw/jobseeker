@@ -16,7 +16,6 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/bg_card">
 
-
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivCompany"
             android:layout_width="0dp"
@@ -38,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="20dp"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/ivCompany"
@@ -54,7 +53,7 @@
             android:ellipsize="end"
             android:gravity="center_vertical"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             app:layout_constraintEnd_toEndOf="@id/tvTitle"
             app:layout_constraintStart_toStartOf="@id/tvTitle"
             app:layout_constraintTop_toBottomOf="@id/tvTitle"
@@ -69,6 +68,7 @@
             android:gravity="center_vertical"
             app:drawableStartCompat="@drawable/ic_clock"
             app:drawableTint="@color/grey"
+            android:textColor="@color/text_color"
             app:layout_constraintStart_toStartOf="@id/tvTitle"
             app:layout_constraintTop_toBottomOf="@id/tvCompany"
             tools:text="Full Time" />
@@ -82,6 +82,7 @@
             android:gravity="center_vertical"
             app:drawableStartCompat="@drawable/ic_location"
             app:drawableTint="@color/grey"
+            android:textColor="@color/text_color"
             app:layout_constraintStart_toEndOf="@id/tvType"
             app:layout_constraintTop_toTopOf="@id/tvType"
             tools:text="Berlin" />
@@ -95,9 +96,9 @@
             android:drawablePadding="4dp"
             android:gravity="center_vertical"
             android:text="check company"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/check_company"
             app:drawableStartCompat="@drawable/ic_baseline_link_24"
-            app:drawableTint="@color/purple_700"
+            app:drawableTint="@color/check_company"
             app:layout_constraintStart_toStartOf="@id/ivCompany"
             app:layout_constraintTop_toBottomOf="@id/ivCompany" />
 
@@ -110,6 +111,7 @@
             android:gravity="center_vertical"
             android:text="Description"
             android:textSize="20sp"
+            android:textColor="@color/text_color"
             app:drawableTint="@android:color/holo_blue_dark"
             app:layout_constraintStart_toStartOf="@id/ivCompany"
             app:layout_constraintTop_toBottomOf="@id/tvLink" />
@@ -121,6 +123,7 @@
             android:layout_marginEnd="10dp"
             android:drawablePadding="4dp"
             android:gravity="center_vertical"
+            android:textColor="@color/description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/lblDescription"
             app:layout_constraintTop_toBottomOf="@id/lblDescription"
@@ -135,6 +138,7 @@
             android:gravity="center_vertical"
             android:text="@string/how_to_apply"
             android:textSize="20sp"
+            android:textColor="@color/text_color"
             app:drawableTint="@android:color/holo_blue_dark"
             app:layout_constraintStart_toStartOf="@id/tvDescription"
             app:layout_constraintTop_toBottomOf="@id/tvDescription" />
@@ -146,6 +150,7 @@
             android:layout_marginTop="8dp"
             android:drawablePadding="4dp"
             android:gravity="center_vertical"
+            android:textColor="@color/description"
             app:layout_constraintEnd_toEndOf="@id/tvDescription"
             app:layout_constraintStart_toStartOf="@id/lbApply"
             app:layout_constraintTop_toBottomOf="@id/lbApply"
